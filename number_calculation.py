@@ -21,3 +21,5 @@ def prime_number(number):
 
 if prime_number(number):
     print(f"{number} is a prime number.")
+else:
+    print(f"{number} is not a prime number.")
