@@ -35,4 +35,7 @@ if is_perfect_square(number):
 else:
     print(f"{number} is not a perfect square.")
 
+# print the square root of given number
 print(math.sqrt(number))
+# print the square of given number
+print(number*number)
