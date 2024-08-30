@@ -27,7 +27,7 @@ html{
     background: radial-gradient(circle, rgba(255,235,205,1) 50%, rgba(204,172,92,1) 100%); 
     color: rgb(61, 48, 107);
 }
-#contact{
+ul,p{
     background-color: rgb(255, 235, 205);
     border-radius: 25px;
     list-style: none;
@@ -56,6 +56,10 @@ a:active{
     position: relative;
     font-size: 100px;
 }
+div{
+    background-color: blanchedalmond;
+    border-radius: 25px;
+}
 span{
     font-family: 'Courier New', Courier, monospace;
     position: relative;
@@ -63,7 +67,7 @@ span{
     color: pink;
     letter-spacing: 10px;
     animation: waveAnim 1s infinite;
-    animation-delay: calc(0.1s *var(--i));
+    animation-delay: calc(0.64s *var(--i));
     text-align: center;
 
     background-color: burlywood;
@@ -72,10 +76,13 @@ span{
     border-radius: 25px;
 }
 @keyframes waveAnim {
-    0%,50%,100%{
+    0%,100%{
         transform:translateY(0)
     }
-    25%,75%{
+    25%{
         transform: translateY(-15px)
+    }
+    75%{
+        transform: translateY(15px)
     }
 }
