@@ -30,6 +30,11 @@ html{
     border-radius: 25px;
     list-style: none;
 }
+#hobbies{
+    background: rgb(255, 235, 205);
+    border-radius: 25px;
+}
+
 a:link{
     text-decoration: none;
 }
