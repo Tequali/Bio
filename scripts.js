@@ -20,3 +20,7 @@ console.log(allP);
 let allTextWrappers = document.getElementsByClassName("text-wrapper");
 console.log("found all elements with class text-wrapper");
 console.log(allTextWrappers);
+for (let i = 0; i < allP.length; i++) {
+    console.log(`Text in paragraph ${i+1}: ${allP[i].innerText}`);
+    allP[i].style.backgroundColor = `rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255})`;
+}
